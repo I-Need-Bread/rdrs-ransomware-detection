@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RDRS Dashboard</title>
+    <style>
+        body { font-family: Arial; background-color: #121212; color: white; padding: 20px; }
+        .card { background: #1e1e1e; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 5px solid #333;}
+        .critical { border-left: 5px solid red; }
+        .safe { border-left: 5px solid green; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #333; }
+        button { padding: 10px; background: blue; color: white; border: none; cursor: pointer; margin-bottom: 20px;}
+    </style>
+</head>
+<body>
+    <h1>🛡️ Ransomware Detection Dashboard</h1>
+    
+    <button onclick="fetchData()">Refresh Data</button>
+
+    <div id="status-card" class="card safe">
+        <h2>System Status</h2>
+        <p id="status-text">Checking status...</p>
+    </div>
+
+    <div class="card critical">
+        <h2>Incidents</h2>
+        <table id="incidents-table">
+            <tr><th>ID</th><th>Score</th><th>Level</th><th>Details</th><th>Time</th></tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Recent File Activity</h2>
+        <table id="events-table">
+            <tr><th>Event</th><th>File Path</th><th>Time</th></tr>
+        </table>
+    </div>
+
+    <script>
+        async function fetchData() {
+            try {
+                document.getElementById('status-text').innerText = "Connecting to API...";
+                
+                // Fetch Status
+                const statusRes = await fetch('http://127.0.0.1:8000/status');
+                const statusData = await statusRes.json();
+                document.getElementById('status-text').innerText = statusData.message;
+
+                // Fetch Alerts
+                const alertsRes = await fetch('http://127.0.0.1:8000/alerts');
+                const alerts = await alertsRes.json();
+                
+                const alertTable = document.getElementById('incidents-table');
+                alertTable.innerHTML = '<tr><th>ID</th><th>Score</th><th>Level</th><th>Details</th><th>Time</th></tr>';
+                
+                if (alerts.length > 0) {
+                    document.getElementById('status-card').className = 'card critical';
+                    document.getElementById('status-text').innerText = '🚨 CRITICAL THREATS DETECTED';
+                    alerts.forEach(a => {
+                        alertTable.innerHTML += `<tr><td>${a.id}</td><td style="color:red">${a.score}</td><td>${a.level}</td><td>${a.details}</td><td>${a.timestamp}</td></tr>`;
+                    });
+                }
+
+                // Fetch Events
+                const eventsRes = await fetch('http://127.0.0.1:8000/events');
+                const events = await eventsRes.json();
+                const eventTable = document.getElementById('events-table');
+                eventTable.innerHTML = '<tr><th>Event</th><th>File Path</th><th>Time</th></tr>';
+                
+                events.forEach(e => {
+                    eventTable.innerHTML += `<tr><td>${e.event_type}</td><td>${e.file_path}</td><td>${e.timestamp}</td></tr>`;
+                });
+
+            } catch (error) {
+                document.getElementById('status-text').innerText = "Error: Cannot connect to API. Is Window 1 running?";
+                document.getElementById('status-card').className = 'card critical';
+            }
+        }
+
+        // Fetch every 2 seconds
+        setInterval(fetchData, 2000);
+        fetchData();
+    </script>
+</body>
+</html>

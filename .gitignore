@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+data/rdrs.db
+data/sandbox/*.txt
+data/sandbox/*.locked

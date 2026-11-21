@@ -24,3 +24,14 @@ Run `pytest tests/` to execute unit tests for the entropy calculation and engine
 
 ## False Positive Mitigation
 A potential false positive is a user unzipping a large compressed file (which creates many files quickly). To mitigate this, the engine requires a continuous burst of 20+ file events within a 10-second window, combined with a 15-second alert cooldown, ensuring normal file operations do not trigger critical alerts.
+
+## Design Choices & Reflection
+
+**Why Rules-Based instead of AI?**
+I chose a weighted rule engine over machine learning. This ensures complete transparency (a SOC analyst can see exactly why a file scored 100) and requires no training data, making it lightweight and fast.
+
+**False Positive Mitigation:**
+A potential false positive is a user unzipping a large `.zip` file (which creates many files rapidly). To mitigate this, the engine requires a continuous burst of 20+ file events within a 10-second window, combined with a 15-second alert cooldown. 
+
+**Future Improvements:**
+In the future, I would implement active process termination (currently in simulation mode) and integrate YARA rules for known ransomware signatures.

@@ -1,0 +1,96 @@
+2026-11-21 16:53:25.383 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_0.txt | Suspect Process: Unknown
+2026-11-21 16:53:25.460 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:25.466 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:26.203 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_0.txt | Suspect Process: explorer.exe
+2026-11-21 16:53:26.259 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:26.266 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:27.011 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_1.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:27.076 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:27.089 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:28.013 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_2.txt | Suspect Process: Code.exe
+2026-11-21 16:53:28.067 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:28.075 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:28.783 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_3.txt | Suspect Process: python.exe
+2026-11-21 16:53:28.865 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:28.876 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:29.411 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_4.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:29.464 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:29.476 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:30.071 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_5.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:30.082 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:30.094 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:30.622 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_6.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:30.674 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:30.687 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:31.345 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_7.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:31.355 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:31.371 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:31.904 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_8.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:31.956 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:31.974 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:32.725 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_9.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:32.739 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:32.762 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:33.435 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_10.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:33.455 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:33.486 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:34.265 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_11.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:34.324 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:34.356 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:35.008 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_12.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:35.027 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:35.061 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:35.729 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_13.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:35.786 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:35.829 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:36.535 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_14.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:36.547 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:36.581 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:37.273 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_15.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:37.328 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:37.356 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:38.077 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_16.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:38.133 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:38.173 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:38.852 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_17.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:38.873 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:38.910 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:39.526 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_18.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:39.537 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:39.580 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:40.266 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_19.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:40.280 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:40.317 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:40.901 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_20.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:40.955 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:40.997 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:41.615 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_21.txt | Suspect Process: System Idle Process
+2026-11-21 16:53:41.628 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:41.683 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:42.340 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_22.txt | Suspect Process: explorer.exe
+2026-11-21 16:53:42.405 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:42.454 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:43.270 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_23.txt | Suspect Process: explorer.exe
+2026-11-21 16:53:43.331 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:43.383 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:44.052 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_24.txt | Suspect Process: msedge.exe
+2026-11-21 16:53:44.065 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:44.115 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:44.909 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_25.txt | Suspect Process: msedge.exe
+2026-11-21 16:53:44.927 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:44.980 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:45.703 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_26.txt | Suspect Process: msedge.exe
+2026-11-21 16:53:45.720 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:45.782 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:46.485 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_27.txt | Suspect Process: chrome.exe
+2026-11-21 16:53:46.502 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:46.561 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:47.636 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_28.txt | Suspect Process: explorer.exe
+2026-11-21 16:53:47.648 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:47.700 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:48.469 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_29.txt | Suspect Process: chrome.exe
+2026-11-21 16:53:48.484 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:48.560 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine
+2026-11-21 16:53:49.280 +05:30 | INFO     | app.detectors.monitor:log_event:42 - MODIFIED -> C:\Users\Hp\Desktop\rdrs_project\data\sandbox\test_file_0.txt | Suspect Process: chrome.exe
+2026-11-21 16:53:49.313 +05:30 | CRITICAL | app.detectors.engine:trigger_incident:30 - CRITICAL THREAT DETECTED! Score: 100
+2026-11-21 16:53:49.377 +05:30 | INFO     | app.detectors.engine:trigger_incident:44 - Evidence copied to data/quarantine

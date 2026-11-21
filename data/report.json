@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:20:08.603842"
+    },
+    {
+        "id": 2,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:25.470391"
+    },
+    {
+        "id": 3,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:26.267504"
+    },
+    {
+        "id": 4,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:27.099999"
+    },
+    {
+        "id": 5,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:28.076780"
+    },
+    {
+        "id": 6,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:28.882492"
+    },
+    {
+        "id": 7,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:29.477482"
+    },
+    {
+        "id": 8,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:30.096089"
+    },
+    {
+        "id": 9,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:30.689186"
+    },
+    {
+        "id": 10,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:31.372695"
+    },
+    {
+        "id": 11,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:31.975107"
+    },
+    {
+        "id": 12,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:32.763912"
+    },
+    {
+        "id": 13,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:33.487676"
+    },
+    {
+        "id": 14,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:34.357999"
+    },
+    {
+        "id": 15,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:35.063283"
+    },
+    {
+        "id": 16,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:35.831414"
+    },
+    {
+        "id": 17,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:36.582808"
+    },
+    {
+        "id": 18,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:37.358613"
+    },
+    {
+        "id": 19,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:38.176019"
+    },
+    {
+        "id": 20,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:38.912230"
+    },
+    {
+        "id": 21,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:39.581714"
+    },
+    {
+        "id": 22,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:40.318750"
+    },
+    {
+        "id": 23,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:40.998488"
+    },
+    {
+        "id": 24,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:41.685331"
+    },
+    {
+        "id": 25,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:42.456189"
+    },
+    {
+        "id": 26,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:43.386126"
+    },
+    {
+        "id": 27,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:44.116733"
+    },
+    {
+        "id": 28,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:44.981070"
+    },
+    {
+        "id": 29,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:45.783522"
+    },
+    {
+        "id": 30,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:46.562887"
+    },
+    {
+        "id": 31,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:47.701574"
+    },
+    {
+        "id": 32,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:48.562817"
+    },
+    {
+        "id": 33,
+        "score": 100,
+        "level": "CRITICAL",
+        "timestamp": "2026-11-21 11:23:49.378806"
+    }
+]
